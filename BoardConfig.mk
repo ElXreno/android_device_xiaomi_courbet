@@ -31,6 +31,7 @@ ODM_MANIFEST_COURBET_FILES := \
 
 # Kernel
 TARGET_KERNEL_CONFIG := courbet_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
