@@ -17,14 +17,6 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 -vendor/lib/libadiertac.so
 -vendor/lib/libaudcal.so
 
-# Audio extensions
--vendor/lib/btaudio_offload_if.so
--vendor/lib/liba2dpoffload.so
--vendor/lib/libhdmiedid.so
--vendor/lib/libhfp.so
--vendor/lib/libsndmonitor.so
--vendor/lib/libspkrprot.so
-
 # Audio firmware
 vendor/firmware/aw8624_haptic.bin
 vendor/firmware/aw8624_rtp.bin
