@@ -48,14 +48,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
 # NFC
-PRODUCT_PACKAGES += \
-    com.android.nfc_extras \
-    NfcNci \
-    SecureElement \
-    Tag
+TARGET_USES_NQ_NFC := false
+TARGET_NFC_SKU := courbet
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service
+    com.android.nfc_extras
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
@@ -85,6 +82,10 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
+# QTI
+TARGET_COMMON_QTI_COMPONENTS += \
+    nfc
 
 # Recovery
 PRODUCT_PACKAGES += \
