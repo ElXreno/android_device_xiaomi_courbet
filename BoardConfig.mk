@@ -21,7 +21,6 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
-MALLOC_SVELTE := true
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_courbet
