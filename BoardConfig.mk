@@ -21,6 +21,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
+MALLOC_SVELTE := true
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/device_framework_compatibility_matrix.xml
