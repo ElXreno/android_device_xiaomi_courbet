@@ -33,13 +33,6 @@
          corner edges), this pulls out just the curve.-->
     <string name="config_rounded_mask" translatable="false">M146,0 C100,2 60,0 30,30 C0,60 2,100 0,146</string>
 
-    <!-- Location on the screen of the center of the physical volume up/down buttons. -->
-    <dimen name="physical_volume_up_button_center_screen_location_y">584px</dimen>
-    <dimen name="physical_volume_down_button_center_screen_location_y">762px</dimen>
-
-    <dimen name="physical_power_button_center_screen_location_y">1060px</dimen>
-    <dimen name="physical_fingerprint_sensor_center_screen_location_y">1060px</dimen>
-
     <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
     <integer name="config_aodMaxRefreshRate">60</integer>
 </resources>
