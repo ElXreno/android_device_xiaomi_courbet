@@ -67,9 +67,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_courbet/com.nxp.mifare.xml
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aospa
+PRODUCT_PACKAGES += \
+    CourbetFrameworksOverlay \
+    CourbetSettingsOverlay \
+    CourbetSettingsProviderOverlay \
+    CourbetSystemUIOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
