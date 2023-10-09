@@ -19,9 +19,6 @@ TARGET_OTA_ASSERT_DEVICE := courbet,courbetin
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
-# Camera
-MALLOC_SVELTE_FOR_LIBC32 := true
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_courbet
 TARGET_RECOVERY_DEVICE_MODULES := libinit_courbet
